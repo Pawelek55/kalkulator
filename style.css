@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Arial';
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#calc{
+    background-color: #FFA500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px; 
+    margin-top: 66px;
+    height: 800px;
+    transform: 
+}
+
+#calc #container{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px 90px 0 50px;
+}
+
+#container div{
+    height: 100px;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,1);
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#container div:hover:not(.screen){
+    cursor: pointer;
+}
+
+div > *{
+    flex: 1 100%;
+}
+
+#container #screen{
+    height: 110px;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+#container #screen #screenContent{
+    box-shadow: none;
+    cursor: context-menu;
+    padding: 0px 3px;
+    overflow: hidden;
+    margin: 0px 25px;
+}
+
+#container .two-in-row{
+    flex: 46%;
+}
+
+#container .four-in-row{
+    flex: 21% ;
+}
+
+.grey{
+    background-color: #3B3535;
+}
+
+#container .shadow-grey{
+    box-shadow: 0px 5px 0px 0px #555555;
+}
+
+.black{
+    background-color: #000;   
+}
+
+#container .shadow-black{
+    box-shadow: 0px 5px 0px 0px #333333;
+}
+
+.blue{
+    background-color: #25B4DE;
+}
+
+#container .shadow-blue{
+    box-shadow: 0px 5px 0px 0px rgb(56, 156, 185);
+}
+
+.green{
+    background-color: #17A928;
+}
+
+#container .shadow-green{
+    box-shadow: 0px 5px 0px 0px #207a2a;
+}
+
